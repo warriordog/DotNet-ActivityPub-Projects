@@ -24,6 +24,7 @@
             <thead>
             <tr>
                 <th>Project Name</th>
+                <th>Type</th>
                 <th>Category</th>
                 <th>Description</th>
                 <th>Status</th>
@@ -36,6 +37,7 @@
             <tr>
                 <th scope="row">ActivityPubSharp</th>
                 <td>Library</td>
+                <td>General</td>
                 <td>Modular implementation of ActivityPub in C#</td>
                 <td>Development</td>
                 <td>
@@ -80,7 +82,55 @@
             </tr>
 
             <tr>
+                <th scope="row">ActivityPub.Net</th>
+                <td>Library</td>
+                <td>General</td>
+                <td>Activity Hub .net implementation</td>
+                <td>Alpha</td>
+                <td>
+                    <dl class="feature-icons">
+                        <div>
+                            <dd title="Unknown">❔</dd>
+                            <dt title="Level of support for ActivityPub types and object model">Model</dt>
+                        </div>
+
+                        <div>
+                            <dd title="Unknown">❔</dd>
+                            <dt title="Level of support for JSON-LD">JSON-LD</dt>
+                        </div>
+
+                        <div>
+                            <dd title="Unknown">❔</dd>
+                            <dt title="Level of support for ActivityStreams extensions">Extensions</dt>
+                        </div>
+
+                        <div>
+                            <dd title="Unknown">❔</dd>
+                            <dt title="Level of support for request and object signatures">Signatures</dt>
+                        </div>
+
+                        <div>
+                            <dd title="Unknown">❔</dd>
+                            <dt title="Level of support for client-mode usage">Client</dt>
+                        </div>
+
+                        <div>
+                            <dd title="Unknown">❔</dd>
+                            <dt title="Level of support for server-mode usage">Server</dt>
+                        </div>
+
+                        <div>
+                            <dd title="Unknown">❔</dd>
+                            <dt title="Level of support for server-to-server federation">Federation</dt>
+                        </div>
+                    </dl>
+                </td>
+                <td><a href="https://github.com/Meep-Tech/ActivityPub.Net" target="_blank">ActivityPub.Net</a></td>
+            </tr>
+
+            <tr>
                 <th scope="row">Letterbook</th>
+                <td>Server</td>
                 <td>Microblogging</td>
                 <td>Mastodon-compatible microblogging server, optimized to reduce administrative costs and burdens</td>
                 <td>Development</td>
@@ -132,53 +182,8 @@
             </tr>
 
             <tr>
-                <th scope="row">BirdsiteLive</th>
-                <td>Bridge</td>
-                <td>An ethical bridge from Twitter </td>
-                <td>Beta</td>
-                <td>
-                    <dl class="feature-icons">
-                        <div>
-                            <dd title="Unknown">❔</dd>
-                            <dt title="Level of support for ActivityPub types and object model">Model</dt>
-                        </div>
-
-                        <div>
-                            <dd title="Unknown">❔</dd>
-                            <dt title="Level of support for JSON-LD">JSON-LD</dt>
-                        </div>
-
-                        <div>
-                            <dd title="Unknown">❔</dd>
-                            <dt title="Level of support for ActivityStreams extensions">Extensions</dt>
-                        </div>
-
-                        <div>
-                            <dd title="Unknown">❔</dd>
-                            <dt title="Level of support for request and object signatures">Signatures</dt>
-                        </div>
-
-                        <div>
-                            <dd title="Unknown">❔</dd>
-                            <dt title="Level of support for client-mode usage">Client</dt>
-                        </div>
-
-                        <div>
-                            <dd title="Unknown">❔</dd>
-                            <dt title="Level of support for server-mode usage">Server</dt>
-                        </div>
-
-                        <div>
-                            <dd title="Unknown">❔</dd>
-                            <dt title="Level of support for server-to-server federation">Federation</dt>
-                        </div>
-                    </dl>
-                </td>
-                <td><a href="https://github.com/NicolasConstant/BirdsiteLive" target="_blank">BirdsiteLive</a></td>
-            </tr>
-
-            <tr>
                 <th scope="row">Smilodon</th>
+                <td>Server</td>
                 <td>Microblogging</td>
                 <td>Mastodon-compatible Fediverse Application written in C# with .NET 7</td>
                 <td>Development</td>
@@ -224,9 +229,10 @@
             </tr>
 
             <tr>
-                <th scope="row">ActivityPub.Net</th>
-                <td>Library</td>
-                <td>Activity Hub .net implementation</td>
+                <th scope="row">Tumblepub</th>
+                <td>Server</td>
+                <td>Tumbleblogging</td>
+                <td>A federated tumbleblog hosting platform</td>
                 <td>Alpha</td>
                 <td>
                     <dl class="feature-icons">
@@ -266,12 +272,13 @@
                         </div>
                     </dl>
                 </td>
-                <td><a href="https://github.com/Meep-Tech/ActivityPub.Net" target="_blank">ActivityPub.Net</a></td>
+                <td><a href="https://github.com/sand-head/Tumblepub" target="_blank">Tumblepub</a></td>
             </tr>
 
             <tr>
                 <th scope="row">Fedodo</th>
-                <td>Hybrid</td>
+                <td>Server</td>
+                <td>General</td>
                 <td>Open Source social network implementing the ActivityPub standard</td>
                 <td>Development</td>
                 <td>
@@ -322,10 +329,11 @@
             </tr>
 
             <tr>
-                <th scope="row">Tumblepub</th>
-                <td>Tumbleblogging</td>
-                <td>A federated tumbleblog hosting platform</td>
-                <td>Alpha</td>
+                <th scope="row">BirdsiteLive</th>
+                <td>Automation</td>
+                <td>Bridge</td>
+                <td>An ethical bridge from Twitter </td>
+                <td>Beta</td>
                 <td>
                     <dl class="feature-icons">
                         <div>
@@ -364,7 +372,7 @@
                         </div>
                     </dl>
                 </td>
-                <td><a href="https://github.com/sand-head/Tumblepub" target="_blank">Tumblepub</a></td>
+                <td><a href="https://github.com/NicolasConstant/BirdsiteLive" target="_blank">BirdsiteLive</a></td>
             </tr>
             </tbody>
         </table>
