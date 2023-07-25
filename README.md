@@ -1,2 +1,1 @@
-# DotNet-ActivityPub-Projects
-Index of open-source ActivityPub projects using C# or .NET
+# [.NET ActivityPub Projects](https://warriordog.github.io/DotNet-ActivityPub-Projects)
