@@ -71,3 +71,9 @@ th {
 .feature-icons > div > :last-child {
     flex: 1;
 }
+
+.subtext {
+    font-size: 90%;
+    font-style: italic;
+    color: #333333;
+}
