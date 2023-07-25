@@ -1,0 +1,58 @@
+@import "baseline.css";
+
+:root {
+    --bg-1: dimgrey; /*#e5e5f7;*/
+    --bg-2: #EAEAEA;
+    --bg-3: lightgray;
+    --bg-4: white;
+    --bg-grid: gray; /* #444cf7 */
+}
+
+body {
+    /*opacity: 0.8;*/
+    background-color: var(--bg-1);
+    background-image:
+        linear-gradient(var(--bg-grid) 2px, transparent 2px),
+        linear-gradient(90deg, var(--bg-grid) 2px, transparent 2px),
+        linear-gradient(var(--bg-grid) 1px, transparent 1px),
+        linear-gradient(90deg, var(--bg-grid) 1px, var(--bg-1) 1px);
+    background-size: 50px 50px, 50px 50px, 10px 10px, 10px 10px;
+    background-position: -2px -2px, -2px -2px, -1px -1px, -1px -1px;
+    background-attachment: fixed; /* need to test */
+}
+
+main,
+article {
+    background-color: var(--bg-2);
+
+    padding: 1rem;
+    margin: 2rem auto;
+
+    box-shadow: 2px 2px 4px 2px #000000A0;
+}
+
+main,
+article,
+section {
+    max-width: 100rem;
+}
+
+td,
+th {
+    padding: 0.5rem;
+}
+
+.data-table thead tr {
+    background-color: lightskyblue;
+}
+.data-table tbody tr {
+    background-color: var(--bg-3);
+}
+.data-table tbody tr:nth-child(2n + 1) {
+    background-color: var(--bg-4);
+}
+
+.no-bullets {
+    list-style-type: none;
+    padding-left: 0;
+}
