@@ -36,7 +36,6 @@ th {
 }
 
 ul,
-ol,
-dl {
+ol {
     padding-left: 1rem;
 }
