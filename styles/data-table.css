@@ -19,9 +19,23 @@
 .data-table thead tr {
     background-color: lightskyblue;
 }
+
 .data-table tbody tr {
     background-color: var(--bg-3);
 }
+
 .data-table tbody tr:nth-child(2n + 1) {
     background-color: var(--bg-4);
+}
+
+.data-table td,
+.data-table th {
+    padding: 0.5rem;
+}
+
+@media (max-width: 1000px) {
+    .data-table td,
+    .data-table th {
+        padding: 3px;
+    }
 }

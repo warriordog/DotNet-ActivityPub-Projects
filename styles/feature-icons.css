@@ -25,6 +25,11 @@
     display: flex;
     flex-direction: row;
 }
+@media(max-width: 1000px) {
+    .feature-icons {
+        flex-direction: column;
+    }
+}
 
 .feature-icons details[open] summary {
     border-bottom: 1px solid gray;

@@ -21,15 +21,14 @@
 @import "feature-icons.css";
 
 :root {
-    --bg-1: dimgrey; /*#e5e5f7;*/
+    --bg-1: dimgrey;
     --bg-2: #EAEAEA;
     --bg-3: lightgray;
     --bg-4: white;
-    --bg-grid: gray; /* #444cf7 */
+    --bg-grid: gray;
 }
 
 body {
-    /*opacity: 0.8;*/
     background-color: var(--bg-1);
     background-image:
         linear-gradient(var(--bg-grid) 2px, transparent 2px),
@@ -38,7 +37,7 @@ body {
         linear-gradient(90deg, var(--bg-grid) 1px, var(--bg-1) 1px);
     background-size: 50px 50px, 50px 50px, 10px 10px, 10px 10px;
     background-position: -2px -2px, -2px -2px, -1px -1px, -1px -1px;
-    background-attachment: fixed; /* need to test */
+    background-attachment: fixed;
 }
 
 main,
@@ -50,16 +49,23 @@ article {
 
     box-shadow: 2px 2px 4px 2px #000000A0;
 }
+@media(max-width: 100rem) {
+    main,
+    article {
+        margin: 0;
+    }
+}
+@media(max-width: 1000px) {
+    main,
+    article {
+        padding: 5px;
+    }
+}
 
 main,
 article,
 section {
     max-width: 100rem;
-}
-
-td,
-th {
-    padding: 0.5rem;
 }
 
 .no-bullets {
