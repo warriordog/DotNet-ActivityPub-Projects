@@ -16,44 +16,17 @@
  *     along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-body {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 1em;
+.feature-icons {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
+.feature-icons > div {
+    display: flex;
+    align-items: baseline;
 
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+    min-width: 7em;
 }
-
-:not(:first-child):is(
-main, article, section,
-header, footer, aside,
-h1, h2, h3, h4, h5, h6,
-p
-) {
-    margin-top: 1rem;
-}
-
-:not(:last-child):is(
-main, article, section,
-header, footer, aside,
-h1, h2, h3, h4, h5, h6,
-p
-) {
-    margin-bottom: 1rem;
-}
-
-table {
-    border-collapse: collapse;
-}
-td,
-th {
-    border: 1px solid black;
-}
-
-ul,
-ol {
-    padding-left: 1rem;
+.feature-icons > div > :last-child {
+    flex: 1;
 }

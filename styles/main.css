@@ -1,4 +1,24 @@
+/*
+ *     DotNet-ActivityPub-Projects - Index of open-source ActivityPub projects using C# or .NET.
+ *     Copyright (C) 2023 Hazel Koehler
+ *
+ *     This program is free software: you can redistribute it and/or modify
+ *     it under the terms of the GNU Affero General Public License as published
+ *     by the Free Software Foundation, either version 3 of the License, or
+ *     (at your option) any later version.
+ *
+ *     This program is distributed in the hope that it will be useful,
+ *     but WITHOUT ANY WARRANTY; without even the implied warranty of
+ *     MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ *     GNU Affero General Public License for more details.
+ *
+ *     You should have received a copy of the GNU Affero General Public License
+ *     along with this program.  If not, see <https://www.gnu.org/licenses/>.
+ */
+
 @import "baseline.css";
+@import "data-table.css";
+@import "feature-icons.css";
 
 :root {
     --bg-1: dimgrey; /*#e5e5f7;*/
@@ -42,32 +62,7 @@ th {
     padding: 0.5rem;
 }
 
-.data-table thead tr {
-    background-color: lightskyblue;
-}
-.data-table tbody tr {
-    background-color: var(--bg-3);
-}
-.data-table tbody tr:nth-child(2n + 1) {
-    background-color: var(--bg-4);
-}
-
 .no-bullets {
     list-style-type: none;
     padding-left: 0;
-}
-
-.feature-icons {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-}
-.feature-icons > div {
-    display: flex;
-    align-items: baseline;
-
-    min-width: 7em;
-}
-.feature-icons > div > :last-child {
-    flex: 1;
 }
