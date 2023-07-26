@@ -66,3 +66,7 @@ th {
     list-style-type: none;
     padding-left: 0;
 }
+
+time {
+    text-decoration: underline;
+}

@@ -16,17 +16,34 @@
  *     along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
 
+/*
+    WTF: "You cannot override the display behavior of a details element"
+    https://stackoverflow.com/a/58225942
+ */
+
 .feature-icons {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
 }
-.feature-icons > div {
+
+.feature-icons details[open] summary {
+    border-bottom: 1px solid gray;
+    font-weight: bold;
+}
+
+.feature-icons div,
+.feature-icons summary {
     display: flex;
     align-items: baseline;
 
     min-width: 7em;
 }
-.feature-icons > div > :last-child {
-    flex: 1;
+
+.feature-icons summary {
+    list-style-type: none;
+    cursor: pointer;
+}
+
+.feature-icons summary:hover {
+    background-color: #def4ff;
 }
