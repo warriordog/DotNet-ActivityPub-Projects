@@ -52,3 +52,32 @@
 .feature-icons summary:hover {
     background-color: #def4ff;
 }
+
+.feature-icons dl {
+    padding: 0;
+}
+.feature-icons dt {
+    font-weight: normal;
+}
+.feature-icons dl dt,
+.feature-icons dl dd {
+    margin: 0;
+}
+
+.feature-icons .feature-full,
+.feature-icons dd[title="Full"] {
+    color: transparent;
+    text-shadow: 0 0 0 green;
+}
+.feature-icons .feature-partial,
+.feature-icons .feature-na,
+.feature-icons dd[title="Partial"],
+.feature-icons dd[title="Not applicable"]{
+    color: transparent;
+    text-shadow: 0 0 0 dimgray;
+}
+.feature-icons .feature-none,
+.feature-icons dd[title="None"] {
+    color: transparent;
+    text-shadow: 0 0 0 red;
+}

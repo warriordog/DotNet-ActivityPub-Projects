@@ -76,3 +76,36 @@ section {
 time {
     text-decoration: underline;
 }
+
+dt {
+    font-weight: bold;
+}
+dl {
+    padding-left: 1rem;
+}
+dl > div,
+dl > dt {
+    display: list-item;
+}
+dt:nth-child(2n + 1),
+dd:nth-child(2n + 1) {
+    display: inline-block;
+    margin-right: 0.25em;
+}
+dt:nth-child(2n + 2),
+dd:nth-child(2n + 2) {
+    display: inline-block;
+    margin-left: 0.25em;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.block-section {
+    padding-left: 0.5rem;
+    border-left: 4px solid dimgray;
+}
+.block-section > header {
+    text-decoration: underline;
+}
