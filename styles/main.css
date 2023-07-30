@@ -49,7 +49,7 @@ article {
 
     box-shadow: 2px 2px 4px 2px #000000A0;
 }
-@media(max-width: 100rem) {
+@media(max-width: 85rem) {
     main,
     article {
         margin: 0;
@@ -65,7 +65,7 @@ article {
 main,
 article,
 section {
-    max-width: 100rem;
+    max-width: 85rem;
 }
 
 .no-bullets {
