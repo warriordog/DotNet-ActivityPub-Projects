@@ -1,4 +1,4 @@
-# Not ActivityPub, but still Interesting
+# Not ActivityPub, but Still Interesting
 
 * [OrionDevelop/Disboard](https://github.com/OrionDevelop/Disboard) - clients for Mastodon, Misskey, and Pleroma APIs. very outdated.
 * [glacasa/Mastonet](https://github.com/glacasa/Mastonet) - client for Mastodon API.
